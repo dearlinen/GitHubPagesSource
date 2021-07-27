@@ -17,5 +17,5 @@ jobs:
         with:
           branch: master # The branch the action should deploy to.
           folder: docs/.vuepress/dist # The folder the action should deploy.
-          ACCESS_TOKEN: ${{secrets.accessToken}}
+          token: ${{secrets.accessToken}}
           repository-name: dearlinen/dearlinen.github.io
