@@ -16,6 +16,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: master # The branch the action should deploy to.
-          folder: / # The folder the action should deploy.
-          token: ${{secrets.accessToken}}
+          folder: docs/.vuepress/dist # The folder the action should deploy.
+          ACCESS_TOKEN: ${{secrets.accessToken}}
           repository-name: dearlinen/dearlinen.github.io
