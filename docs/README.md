@@ -1,3 +1,3 @@
 <center>
-    <h1>关于Javascript的细节</h1>
+    <h1>BLOG</h1>
 </center>
