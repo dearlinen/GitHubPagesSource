@@ -17,10 +17,10 @@ style:
   primary_color: '#0066CC'
 
   # Avatar (You can use local image or image external link)
-  avatar: /images/avatar.svg
+  avatar: /images/logo.jpg
 
   # Favicon (You can use local image or image external link)
-  favicon: /images/logo.svg
+  favicon: /images/logo.jpg
 
   # Article image align position, value: left | center
   article_img_align: left
@@ -33,14 +33,14 @@ style:
 
   # Mouse hover
   hover:
-    shadow: false   # shadow effect when the mouse hover
-    scale: false    # scale effect when the mouse hover
+    shadow: true   # shadow effect when the mouse hover
+    scale: true    # scale effect when the mouse hover
 
   # First screen
   first_screen:
-    enable: false
+    enable: true
     background_img: /images/bg.svg   # You can use local image or image external link
-    description: Keep writing and Keep loving.
+    description: 求知若渴 虚心若愚
 
   # Scroll style settings
   scroll:
@@ -54,16 +54,16 @@ style:
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false
+  enable: true
   links:
-    github:          # your GitHub URL
+    github: https://github.com/dearlinen          # your GitHub URL
     weixin:          # your WeChat QR-Code URL
     qq:              # your QQ QR-Code URL
     weibo:           # your WeiBo URL
     zhihu:           # your ZhiHu URL
     twitter:         # your twitter URL
     facebook:        # your facebook URL
-    email:           # your email
+    email:  z@hvid.icu         # your email
 
 
 # ---------------------------------------------------------------------------------------
@@ -72,8 +72,8 @@ social_contact:
 menu:
   Home: /
   Archives: /archives
-  # Categories: /categories
-  # Tags: /tags
+  #Categories: /categories
+  #Tags: /tags
   # Links: /links
   # About: /about
   # Changelog: /changelog
@@ -107,9 +107,9 @@ post:
   # Author label
   author_label:
     enable: true
-    auto: true  # if true, show Lv1, Lv2, Lv3... , If false, show custom label
+    auto: false  # if true, show Lv1, Lv2, Lv3... , If false, show custom label
     # label array item can be one or more
-    custom_label_list: [ "Trainee", "Engineer", "Architect", "CTO", "BOSS" ]
+    custom_label_list: ['learner']
 
 
 # ---------------------------------------------------------------------------------------
@@ -229,7 +229,7 @@ pjax:
 # Footer settings
 # ---------------------------------------------------------------------------------------
 footer:
-  since: 2020      # the starting year of your website, Can be null
+  since: 2021      # the starting year of your website, Can be null
   icp:             # ICP record number of your website, Can be null
 
 
