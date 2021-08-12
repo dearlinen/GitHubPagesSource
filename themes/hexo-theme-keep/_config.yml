@@ -73,7 +73,7 @@ menu:
   Home: /
   Archives: /archives
   #Categories: /categories
-  #Tags: /tags
+  Tags: /tags
   # Links: /links
   # About: /about
   # Changelog: /changelog
@@ -143,17 +143,7 @@ copyright_info:
   enable: false
 
 
-# ---------------------------------------------------------------------------------------
-# Website count
-# ---------------------------------------------------------------------------------------
-website_count:
-  # busuanzi
-  # See: http://ibruce.info/2015/04/04/busuanzi/
-  busuanzi_count:
-    enable: false
-    site_uv: false
-    site_pv: false
-    page_pv: false
+
 
 
 # ---------------------------------------------------------------------------------------
