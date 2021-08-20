@@ -1,7 +1,23 @@
 ---
-title: library_and_framework
+title: API备忘录
 date: 2021-08-13 02:37:11
 tags:
 ---
 
-# no content here!
+# Vue
+
+- `v-if` `v-show`
+  - 两种指令都是控制元素的显示与否，不同之处在于`v-if`通过控制DOM是否渲染来控制，`v-show`通过设置元素的`display`属性来控制
+- `v-for`
+  - 它可以遍历数组，对象，也可以简单的创建一个计数器
+  - 它的`key`属性是必须的，可以用来降低内部diff算法的复杂度和确定遍历得到的值的次序
+- `v-model`
+  - 它用来实现双向绑定。本质是基于Object.definePrototype 和es6中的proxy
+- `props`
+- 生命周期
+- 虚拟DOM
+  - Vue为了更高效的更新DOM而使用了虚拟DOM，以实现高效率的渲染
+    - 虚拟DOM的思路是通过对比新旧节点树来获取不同的部分，每次只更新改变过的DOM节点
+      - 虚拟节点树是由子组件树构建而成的，它是根系即是子组件
+      - 虚拟DOM比较新旧节点树差异并渲染的过程由`patch`完成，也可以称作`patching`算法
+  
